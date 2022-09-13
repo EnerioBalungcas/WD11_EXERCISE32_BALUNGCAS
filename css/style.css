@@ -1,0 +1,36 @@
+.heading {
+    background-color: blue;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    font-size: 26pt;
+    font-weight: bolder;
+}
+
+.imageContainer {
+    
+    /* display: flexbox; */
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.imageSize {
+    width: 350px;
+    height: 500px;
+    padding: 5px;
+}
+.imageSize:hover {
+    /* display:block; */ /* this doesn't work */
+    transform: scale(1.2);
+    transform-style:flat;
+    transition-delay: 0.4s;
+    transition-duration: 0.8s;
+}
+.headingBanner2 {
+    align-content: flex-end;
+    /* background :greenyellow; */
+    text-align: end;
+
+}
+
